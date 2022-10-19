@@ -1,0 +1,68 @@
+/*Changing Navigation bar blue*/
+#main-navbar{
+  background-color: blue;
+  position: relative;
+  width: 100%;
+}
+/* Adjusts the main navigation bar*/
+#main-navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block
+}
+/*Pushes the parts of the nav bar to line up on the left*/
+#main-navbar ul li {
+  float: left;
+  left: 50%;
+}
+/*Changes the color and placement of the nav bar parts*/
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+/* Changes color when you hover of nav bar*/
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+/* Centers Nav bar */
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+/*Color, size, and location of sidebar*/
+#sidebar {
+  right: 0%;
+  width: 20%;
+  height: 100%;
+  background-color: red;
+  position: fixed;
+}
+/*Takes off padding*/
+#sidebar-container ul {
+  padding: 0;
+}
+/* Takes off the bullet points*/
+#sidebar-container ul li {
+  list-style-type: none;
+}
+/* Color and placement of the sidebar parts*/
+#sidebar-container ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+/* Color when you hover over the parts of the side bar*/
+#sidebar-container ul li a:hover {
+  background-color: #000;
+}
+/* Adds the underline overline to the nav bar */
+#onpage {
+  text-decoration: underline overline;
+} 
